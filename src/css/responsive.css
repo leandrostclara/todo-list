@@ -1,0 +1,15 @@
+@media (max-width:425px) {
+
+    .container {
+        max-width: 380px;
+    }
+
+    .container .task-input {
+        width: 230px;
+    }
+
+    .container img {
+        opacity: 1;
+    }
+
+}

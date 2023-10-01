@@ -48,7 +48,7 @@ body {
 .task-list li {
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 50px;
     margin-bottom: 20px;
     border-radius: 5px;
     justify-content: space-between;
@@ -70,4 +70,14 @@ body {
     height: 25px;
     opacity: 0;
     transition: opacity .3s ease-in-out;
+}
+
+.task-list .complete {
+    background-color: lightskyblue;
+    text-decoration: line-through;
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 13px;
 }
